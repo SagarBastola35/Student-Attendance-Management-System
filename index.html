@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Attendify | Student Attendance Management System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-user-graduate"></i>
+          <span>Attend<span>ify</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#" class="active" data-nav="dashboard"
+              ><i class="fas fa-chalkboard-user"></i> Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="#" data-nav="students"
+              ><i class="fas fa-users"></i> Students</a
+            >
+          </li>
+          <li>
+            <a href="#" data-nav="attendance"
+              ><i class="fas fa-calendar-check"></i> Attendance</a
+            >
+          </li>
+          <li>
+            <a href="#" data-nav="reports"
+              ><i class="fas fa-chart-line"></i> Reports</a
+            >
+          </li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-container" id="mainContent">
+      <!-- dynamic views will be injected here by JS -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-copyright">
+            <span>Sagar Bastola</span>
+          <i class="far fa-copyright"></i> 2026 Attendify — Smart Attendance
+          Management System
+        </div>
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
